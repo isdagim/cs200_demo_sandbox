@@ -1,3 +1,15 @@
+def foo(x, y):
+    return (x*y) + 1
+
+
+def bar(x, y):
+    return (x*y) + 2
+
+
+def baz(x, y):
+    return x**y
+
+
 def func1():
     lst = []
     print('Enter numbers one at a time. Enter 0 to stop.')
